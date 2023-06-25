@@ -1,0 +1,19 @@
+a = float(input("Enter the first value : "))
+b = float(input("Enter the second value : "))
+x = (input("Enter the arithmetic function you want to use (+,-,*,**,/,//,%) : "))
+if x == "+":
+    print("The addition of", a ,"and", b, "=", a+b)
+if x == "-":
+    print("The substraction of", a ,"and", b, "=", a-b)
+if x == "*":
+    print("The multiplication of", a ,"and", b, "=", a*b)
+if x == "**":
+    print("The value of", a ,"to the power", b, "=", a**b)
+if x == "/":
+    print("The division of", a ,"by", b, "=", a/b)
+if x == "//":
+    print("The floor divison of", a ,"and", b, "=", a//b)
+if x == "%":
+    print("The modulus of", a ,"and", b, "=", a%b)
+if x not in ("+ , -, * , ** , / , // , %"):
+    print("Please enter a valid operator")
